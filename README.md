@@ -13,6 +13,10 @@ Following these steps to integrate DentalSeg with nn-UNet:
  cp DentalSeg/loss/* nnUNet/nnunetv2/training/loss/
  cp DentalSeg/nnUNetTrainer/* nnUNet/nnunetv2/training/nnUNetTrainer/
  ```
+3. To train the model, follow the official commands of nnUNetv2. The training command is:
+ ```
+ nnUNetv2_train [d] 3d_fullres [fold] -tr nnUNetTrainer_Tversky_no_mirror
+ ```
 To inference by running the commond after modifying the file address in [inference.py](https://github.com/Mors20/DentalSeg/blob/main/inference.py):
 ```
 python inference.py
