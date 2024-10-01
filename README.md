@@ -13,7 +13,7 @@ Following these steps to integrate DentalSeg with nn-UNet:
  cp DentalSeg/loss/* nnUNet/nnunetv2/training/loss/
  cp DentalSeg/nnUNetTrainer/* nnUNet/nnunetv2/training/nnUNetTrainer/
  ```
-3. Our solution includes two stages, which means that we need to train 2 networks. Please follow the official commands of nnUNetv2.
+3. Our solution includes two stages, which means we need to train two networks. Please follow the official commands of nnUNetv2.
    
    **Network1 Experiment Planning and Preprocessing**
     ```
