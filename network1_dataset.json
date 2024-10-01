@@ -1,0 +1,24 @@
+{
+    "name": "ToothFairy 2",
+    "description": "Segmentation of maxillofacial CBCT volumes",
+    "reference": "https://ditto.ing.unimore.it/toothfairy2/",
+    "license": "CC-BY-SA 4.0",
+    "release": "20/04/2024",
+    "latestUpdate": "07/07/2024",
+    "tensorImageSize": "4D",
+    "labels": {
+        "background": 0,
+        "Lower Jawbone": 1,
+        "Upper Jawbone": 2,
+        "Alveolar Canal": 3,
+        "Maxillary Sinus": 4,
+        "Pharynx": 5,
+        "Teeth": 6
+    },
+    "numTraining": 480,
+    "numTest": 0,
+    "file_ending": ".mha",
+    "channel_names": {
+        "0": "CT"
+    }
+}
